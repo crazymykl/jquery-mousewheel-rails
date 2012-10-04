@@ -7,16 +7,16 @@ require "jquery-mousewheel-rails/version"
 Gem::Specification.new do |s|
   s.name        = "jquery-mousewheel-rails"
   s.version     = JqueryMousewheelRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of JqueryMousewheelRails."
-  s.description = "TODO: Description of JqueryMousewheelRails."
+  s.authors     = ["Mike MacDonald"]
+  s.email       = ["crazymykl@gmail.com"]
+  s.homepage    = "https://github.com/crazymykl/jquery-mousewheel-rails"
+  s.summary     = "Integrates jquery-mousewheel with rails."
+  s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 3.2.8"
+  s.add_dependency "rails", "~> 3.1"
 
   s.add_development_dependency "sqlite3"
 end
