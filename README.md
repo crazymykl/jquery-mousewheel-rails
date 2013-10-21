@@ -1,7 +1,7 @@
 # JqueryMousewheelRails
 
 A ruby gem that uses the Rails asset pipeline to include the jQuery MouseWheel plugin by Brandon Aaron
-(http://brandonaaron.net).
+(http://brandon.aaron.sh).
 
 ## Installation
 
