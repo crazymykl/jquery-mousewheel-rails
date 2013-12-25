@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
+  s.license       = 'MIT'
 
   s.add_runtime_dependency 'railties', '>= 3.1'
   s.add_development_dependency "sqlite3"
